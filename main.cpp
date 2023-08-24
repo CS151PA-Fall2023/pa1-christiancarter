@@ -3,7 +3,6 @@
 
 int main()
 {
-    std::cout << "SUCCESSFUL INIT RUN";
     std::ofstream outputFile;
     outputFile.open("something.txt");
     if(!outputFile)
@@ -18,13 +17,11 @@ int main()
 
     std::ifstream inputFile("something.txt");
 
-
     std::string line;
     while(getline(inputFile, line))
     {
         std::cout << line << std::endl;
     }
-    std::cout << "SUCCESSFUL COMPLETE RUN";
 
     inputFile.close();
 

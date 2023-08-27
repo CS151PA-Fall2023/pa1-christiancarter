@@ -1,13 +1,17 @@
-// Author: Christian Carter
-// Created: August 29, 2022
-// August 31, 2022
-    // Tested
-// September 21, 2022
-    // Modified output alignment and added output headers.
-    // Added "Press enter to continue..." prompt.
-    // Switched binary search from looking for list number of major to major name.
-    // Combined binary search into info function.
 /*
+    Created: August 29, 2022
+    August 31, 2022
+        Tested
+    September 21, 2022
+        Modified output alignment and added output headers.
+        Added "Press enter to continue..." prompt.
+        Switched binary search from looking for list number of major to major name.
+        Combined binary search into info function.
+    August 25, 2023
+        modified directives in analytics.h file
+    August 26, 2023
+        add function header functions prototypes
+
     Gathers education major information from a file into an array.
     Sorts the information in ascending or descending order.
     Displays the information in ascending or descending order.
@@ -15,9 +19,6 @@
 */
 
 #include "analytics.h"
-
-// #define or
-// #define and &&
 
 int main()
 {	

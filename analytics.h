@@ -1,5 +1,5 @@
+#ifndef FUNCTIONS_H
 #define FUNCTIONS_H
-#ifndef ANALYTICS_H
 
 #include <iostream>
 #include <fstream>
@@ -26,8 +26,8 @@ struct GradEmploymentData
 };
 
 /*
-void print_list(int *list, const int LENGTH);
-void print_sub_vector(std::vector <GradEmploymentData> grad_employment_data, int total, int last);
+    void print_list(int *list, const int LENGTH);
+    void print_sub_vector(std::vector <GradEmploymentData> grad_employment_data, int total, int last);
 */
 
 void print_main_menu();

@@ -41,6 +41,12 @@ void print_sub_vector(std::vector <GradEmploymentData> grad_employment_data, int
 }
 */
 
+/**
+ * does something
+ * 
+ * @param a
+ * @return a
+*/
 void print_main_menu()
 {
     std::cout << "2015 National Survey of Recent College Graduate"
@@ -59,6 +65,12 @@ void print_main_menu()
         << "\n\nSelect a Menu Item: ";
 }
 
+/**
+ * does something
+ * 
+ * @param a
+ * @return a
+*/
 void print_mean_salaries(std::vector <GradEmploymentData> grad_employment_data)
 {
     std::cout.width(35);
@@ -74,7 +86,12 @@ void print_mean_salaries(std::vector <GradEmploymentData> grad_employment_data)
     }
 }
 
-
+/**
+ * does something
+ * 
+ * @param a
+ * @return a
+*/
 void print_median_salaries(std::vector <GradEmploymentData> grad_employment_data)
 {
     std::cout.width(35);
@@ -90,6 +107,12 @@ void print_median_salaries(std::vector <GradEmploymentData> grad_employment_data
     }
 }
 
+/**
+ * does something
+ * 
+ * @param a
+ * @return a
+*/
 void print_number_of_asians(std::vector <GradEmploymentData> grad_employment_data)
 {
     std::cout.width(35);
@@ -103,6 +126,12 @@ void print_number_of_asians(std::vector <GradEmploymentData> grad_employment_dat
     }
 }
 
+/**
+ * does something
+ * 
+ * @param a
+ * @return a
+*/
 void print_number_of_minorities(std::vector <GradEmploymentData> grad_employment_data)
 {
     std::cout.width(35);
@@ -128,6 +157,13 @@ void print_highest_lowest_number_of_minorities(std::vector <GradEmploymentData> 
             << '\n';
     }
 }
+*/
+
+/**
+ * does something
+ * 
+ * @param a
+ * @return a
 */
 bool binary_search_vector(std::vector <GradEmploymentData> grad_employment_data, std::string to_search, int &position)
 {
@@ -203,6 +239,12 @@ void binary_search_vector(std::vector <GradEmploymentData> grad_employment_data,
 }
 */
 
+/**
+ * does something
+ * 
+ * @param a
+ * @return a
+*/
 void insertion_sort_by_education_major_ascending(std::vector <GradEmploymentData> &grad_employment_data, int num_of_majors)
 {
     std::string key; // key = education major
@@ -255,6 +297,12 @@ void insertion_sort_by_education_major_ascending(std::vector <GradEmploymentData
     }
 }
 
+/**
+ * does something
+ * 
+ * @param a
+ * @return a
+*/
 void insertion_sort_by_highest_mean_salary(std::vector <GradEmploymentData> &grad_employment_data, int num_of_majors)
 {
     std::string educMaj;
@@ -307,6 +355,12 @@ void insertion_sort_by_highest_mean_salary(std::vector <GradEmploymentData> &gra
     }
 }
 
+/**
+ * does something
+ * 
+ * @param a
+ * @return a
+*/
 void insertion_sort_by_lowest_mean_salary(std::vector <GradEmploymentData> &grad_employment_data, int num_of_majors)
 {
     std::string educMaj;
@@ -359,6 +413,12 @@ void insertion_sort_by_lowest_mean_salary(std::vector <GradEmploymentData> &grad
     }
 }
 
+/**
+ * does something
+ * 
+ * @param a
+ * @return a
+*/
 void insertion_sort_by_highest_median_salary(std::vector <GradEmploymentData> &grad_employment_data, int num_of_majors)
 {
     std::string educMaj;
@@ -411,6 +471,12 @@ void insertion_sort_by_highest_median_salary(std::vector <GradEmploymentData> &g
     }
 }
 
+/**
+ * does something
+ * 
+ * @param a
+ * @return a
+*/
 void insertion_sort_by_lowest_median_salary(std::vector <GradEmploymentData> &grad_employment_data, int num_of_majors)
 {
     std::string educMaj;
@@ -463,6 +529,12 @@ void insertion_sort_by_lowest_median_salary(std::vector <GradEmploymentData> &gr
     }
 }
 
+/**
+ * does something
+ * 
+ * @param a
+ * @return a
+*/
 void insertion_sort_by_highest_number_of_asians(std::vector <GradEmploymentData> &grad_employment_data, int num_of_majors)
 {
     std::string educMaj;
@@ -515,6 +587,12 @@ void insertion_sort_by_highest_number_of_asians(std::vector <GradEmploymentData>
     }
 }
 
+/**
+ * does something
+ * 
+ * @param a
+ * @return a
+*/
 void insertion_sort_by_lowest_number_of_asians(std::vector <GradEmploymentData> &grad_employment_data, int num_of_majors)
 {
     std::string educMaj;
@@ -567,6 +645,12 @@ void insertion_sort_by_lowest_number_of_asians(std::vector <GradEmploymentData> 
     }
 }
 
+/**
+ * does something
+ * 
+ * @param a
+ * @return a
+*/
 void insertion_sort_by_highest_number_of_minorities(std::vector <GradEmploymentData> &grad_employment_data, int num_of_majors)
 {
     std::string educMaj;
@@ -619,6 +703,12 @@ void insertion_sort_by_highest_number_of_minorities(std::vector <GradEmploymentD
     }
 }
 
+/**
+ * does something
+ * 
+ * @param a
+ * @return a
+*/
 void insertion_sort_by_lowest_number_of_minorities(std::vector <GradEmploymentData> &grad_employment_data, int num_of_majors)
 {
     std::string educMaj;
@@ -671,6 +761,12 @@ void insertion_sort_by_lowest_number_of_minorities(std::vector <GradEmploymentDa
     }
 }
 
+/**
+ * does something
+ * 
+ * @param a
+ * @return a
+*/
 void print_vectors(std::vector <GradEmploymentData> grad_employment_data)
 {
     for(unsigned int i = 0; i < grad_employment_data.size() - 1; i++)
@@ -690,6 +786,12 @@ void print_vectors(std::vector <GradEmploymentData> grad_employment_data)
     }
 }
 
+/**
+ * does something
+ * 
+ * @param a
+ * @return a
+*/
 // Searches for and displays info about major.
 void info(std::vector <GradEmploymentData> grad_employment_data, int num_of_majors)
 {

@@ -42,7 +42,7 @@ void print_sub_vector(std::vector <GradEmploymentData> grad_employment_data, int
 */
 
 /**
- * does something
+ * display menu
  * 
  * @param a
  * @return a
@@ -787,12 +787,11 @@ void print_vectors(std::vector <GradEmploymentData> grad_employment_data)
 }
 
 /**
- * does something
+ * Searches for and displays info about major.
  * 
- * @param a
- * @return a
+ * @param grad_employment_data 
+ * @param num_of_majors 
 */
-// Searches for and displays info about major.
 void info(std::vector <GradEmploymentData> grad_employment_data, int num_of_majors)
 {
     int position = 0;

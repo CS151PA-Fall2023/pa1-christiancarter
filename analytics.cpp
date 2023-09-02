@@ -42,10 +42,7 @@ void print_sub_vector(std::vector <GradEmploymentData> grad_employment_data, int
 */
 
 /**
- * display menu
- * 
- * @param a
- * @return a
+ * display menu from user will select from a list of options
 */
 void print_main_menu()
 {
@@ -66,10 +63,9 @@ void print_main_menu()
 }
 
 /**
- * does something
+ * displays mean salary data for employee type
  * 
- * @param a
- * @return a
+ * @param grad_employment_data used to store mean salary data for employee type, which is then printed onto the screen
 */
 void print_mean_salaries(std::vector <GradEmploymentData> grad_employment_data)
 {
@@ -87,10 +83,9 @@ void print_mean_salaries(std::vector <GradEmploymentData> grad_employment_data)
 }
 
 /**
- * does something
+ * displays median salary data for employee type
  * 
- * @param a
- * @return a
+ * @param grad_employment_data used to store median salary data for employee type, which is then printed onto the screen
 */
 void print_median_salaries(std::vector <GradEmploymentData> grad_employment_data)
 {
@@ -108,10 +103,9 @@ void print_median_salaries(std::vector <GradEmploymentData> grad_employment_data
 }
 
 /**
- * does something
+ * displays number of Asians data for employee type
  * 
- * @param a
- * @return a
+ * @param grad_employment_data used to store number of Asians data for employee type, which is then printed onto the screen
 */
 void print_number_of_asians(std::vector <GradEmploymentData> grad_employment_data)
 {
@@ -127,10 +121,9 @@ void print_number_of_asians(std::vector <GradEmploymentData> grad_employment_dat
 }
 
 /**
- * does something
+ * displays number of minorities data for employee type
  * 
- * @param a
- * @return a
+ * @param grad_employment_data used to store number of minorities data for employee type, which is then printed onto the screen
 */
 void print_number_of_minorities(std::vector <GradEmploymentData> grad_employment_data)
 {
@@ -160,10 +153,12 @@ void print_highest_lowest_number_of_minorities(std::vector <GradEmploymentData> 
 */
 
 /**
- * does something
+ * searches data for a string, to_search, that had been typed
  * 
- * @param a
- * @return a
+ * @param grad_employment_data 
+ * @param to_search 
+ * @param position 
+ * @return ?
 */
 bool binary_search_vector(std::vector <GradEmploymentData> grad_employment_data, std::string to_search, int &position)
 {

@@ -247,13 +247,12 @@ void binary_search_vector(std::vector <GradEmploymentData> grad_employment_data,
 */
 
 /**
- * @brief does something
+ * @brief sorts list
  * 
- * does something
+ * sorts list by education major in ascending order with insertion sort algorithm
  * 
- * @param grad_employment_data
- * @param num_of_majors
- * @return a
+ * @param grad_employment_data vector in which data for education major is stored and is sorted in ascending order
+ * @param num_of_majors total number of majors in vector, with additional info, such as salary and demographic 
 */
 void insertion_sort_by_education_major_ascending(std::vector <GradEmploymentData> &grad_employment_data, int num_of_majors)
 {
@@ -308,13 +307,12 @@ void insertion_sort_by_education_major_ascending(std::vector <GradEmploymentData
 }
 
 /**
- * @brief does something
+ * @brief sorts list
  * 
- * does something
+ * sorts list by mean salary with insertion sort algorithm in ascending order
  * 
- * @param grad_employment_data
- * @param num_of_majors
- * @return a
+ * @param grad_employment_data vector in which data for mean salary is stored and is sorted in ascending order
+ * @param num_of_majors total number of majors in vector, with additional info, such as salary and demographic 
 */
 void insertion_sort_by_highest_mean_salary(std::vector <GradEmploymentData> &grad_employment_data, int num_of_majors)
 {
@@ -369,13 +367,12 @@ void insertion_sort_by_highest_mean_salary(std::vector <GradEmploymentData> &gra
 }
 
 /**
- * @brief does something
+ * @brief sorts list
  * 
- * does something
+ * sorts list by mean salary with insertion sort algorithm in descending order
  * 
- * @param grad_employment_data
- * @param num_of_majors
- * @return a
+ * @param grad_employment_data vector in which data for mean salary is stored and is sorted in descending order
+ * @param num_of_majors total number of majors in vector, with additional info, such as salary and demographic 
 */
 void insertion_sort_by_lowest_mean_salary(std::vector <GradEmploymentData> &grad_employment_data, int num_of_majors)
 {
@@ -430,13 +427,12 @@ void insertion_sort_by_lowest_mean_salary(std::vector <GradEmploymentData> &grad
 }
 
 /**
- * @brief does something
+ * @brief sorts list
  * 
- * does something
+ * sorts list by median salary with insertion sort algorithm in ascending order
  * 
- * @param grad_employment_data
- * @param num_of_majors
- * @return a
+ * @param grad_employment_data vector in which data for median salary is stored and is sorted in ascending order
+ * @param num_of_majors total number of majors in vector, with additional info, such as salary and demographic 
 */
 void insertion_sort_by_highest_median_salary(std::vector <GradEmploymentData> &grad_employment_data, int num_of_majors)
 {
@@ -491,13 +487,12 @@ void insertion_sort_by_highest_median_salary(std::vector <GradEmploymentData> &g
 }
 
 /**
- * @brief does something
+ * @brief sorts list
  * 
- * does something
+ * sorts list by median salary with insertion sort algorithm in descending order
  * 
- * @param grad_employment_data
- * @param num_of_majors
- * @return a
+ * @param grad_employment_data vector in which data for median salary is stored and is sorted in descending order
+ * @param num_of_majors total number of majors in vector, with additional info, such as salary and demographic 
 */
 void insertion_sort_by_lowest_median_salary(std::vector <GradEmploymentData> &grad_employment_data, int num_of_majors)
 {
@@ -552,13 +547,12 @@ void insertion_sort_by_lowest_median_salary(std::vector <GradEmploymentData> &gr
 }
 
 /**
- * @brief does something
+ * @brief sorts list
  * 
- * does something
+ * sorts list by Asian demographic with insertion sort algorithm in ascending order
  * 
- * @param grad_employment_data
- * @param num_of_majors
- * @return a
+ * @param grad_employment_data vector in which data for Asian demographic is stored and is sorted in ascending order
+ * @param num_of_majors total number of majors in vector, with additional info, such as salary and demographic 
 */
 void insertion_sort_by_highest_number_of_asians(std::vector <GradEmploymentData> &grad_employment_data, int num_of_majors)
 {
@@ -613,13 +607,12 @@ void insertion_sort_by_highest_number_of_asians(std::vector <GradEmploymentData>
 }
 
 /**
- * @brief does something
+ * @brief sorts list
  * 
- * does something
+ * sorts list by Asian demographic with insertion sort algorithm in descending order
  * 
- * @param grad_employment_data
- * @param num_of_majors
- * @return a
+ * @param grad_employment_data vector in which data for Asian demographic is stored and is sorted in descending order
+ * @param num_of_majors total number of majors in vector, with additional info, such as salary and demographic 
 */
 void insertion_sort_by_lowest_number_of_asians(std::vector <GradEmploymentData> &grad_employment_data, int num_of_majors)
 {
@@ -674,13 +667,12 @@ void insertion_sort_by_lowest_number_of_asians(std::vector <GradEmploymentData> 
 }
 
 /**
- * @brief does something
+ * @brief sorts list
  * 
- * does something
+ * sorts list by minority demographic with insertion sort algorithm in ascending order
  * 
- * @param grad_employment_data
- * @param num_of_majors
- * @return a
+ * @param grad_employment_data vector in which data for minority demographic is stored and is sorted in ascending order
+ * @param num_of_majors total number of majors in vector, with additional info, such as salary and demographic 
 */
 void insertion_sort_by_highest_number_of_minorities(std::vector <GradEmploymentData> &grad_employment_data, int num_of_majors)
 {
@@ -735,13 +727,12 @@ void insertion_sort_by_highest_number_of_minorities(std::vector <GradEmploymentD
 }
 
 /**
- * @brief does something
+ * @brief sorts list
  * 
- * does something
+ * sorts list by minority demographic with insertion sort algorithm in descending order
  * 
- * @param grad_employment_data
- * @param num_of_majors
- * @return a
+ * @param grad_employment_data vector in which data for minority demographic is stored and is sorted in descending order
+ * @param num_of_majors total number of majors in vector, with additional info, such as salary and demographic 
 */
 void insertion_sort_by_lowest_number_of_minorities(std::vector <GradEmploymentData> &grad_employment_data, int num_of_majors)
 {
@@ -798,10 +789,9 @@ void insertion_sort_by_lowest_number_of_minorities(std::vector <GradEmploymentDa
 /**
  * @brief print vector data
  * 
- * does something
+ * print onto the screen and from a vector the data that has information about each graduation type
  * 
- * @param a
- * @return a
+ * @param grad_employment_data vector from which data is printed onto the screen
 */
 void print_vectors(std::vector <GradEmploymentData> grad_employment_data)
 {
@@ -825,10 +815,10 @@ void print_vectors(std::vector <GradEmploymentData> grad_employment_data)
 /**
  * @brief display info
  * 
- * search for and displays info about a major
+ * prompt menu, search, and display info about a gradition major, given by the user
  * 
- * @param grad_employment_data 
- * @param num_of_majors 
+ * @param grad_employment_data vector that is used to store information about each graduation type
+ * @param num_of_majors total number of majors
 */
 void info(std::vector <GradEmploymentData> grad_employment_data, int num_of_majors)
 {

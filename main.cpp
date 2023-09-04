@@ -10,8 +10,9 @@
     August 25, 2023
         modified directives in analytics.h file
     August 26, 2023
-        add function header functions prototypes
+        add function header prototypes
     August 30, 2023
+        add function header comments
 
     Gathers education major information from a file into an array.
     Sorts the information in ascending or descending order.

@@ -844,6 +844,7 @@ void info(std::vector <GradEmploymentData> grad_employment_data, int num_of_majo
         found = binary_search_vector(grad_employment_data, major, position);
         if(found)
         {
+            /*
             std::cout.width(35);
             std::cout << std::left << "HERE" << std::setw(5) << "THERE" << '\n';
             std::cout.width(35);
@@ -856,7 +857,8 @@ void info(std::vector <GradEmploymentData> grad_employment_data, int num_of_majo
             std::cout << std::left << "HERE" << std::setw(5) << "THERE" << '\n';
             std::cout.width(35);
             std::cout << std::left << "HERE" << std::setw(5) << "WH2323O" << '\n';
-
+            */
+           
             std::cout << '\n' << std::left << grad_employment_data[position].educationMajor
             << "\n---------------------------------------------"
                 << "\n\n";

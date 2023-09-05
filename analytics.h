@@ -26,6 +26,8 @@ struct GradEmploymentData
 };
 
 /*
+    for debugging
+
     void print_list(int *list, const int LENGTH);
     void print_sub_vector(std::vector <GradEmploymentData> grad_employment_data, int total, int last);
 */
